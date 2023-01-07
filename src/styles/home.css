@@ -1,0 +1,21 @@
+.characters-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 95vw;
+    height: 25vh;
+    
+
+}
+
+.planets-container {
+    display: flex;
+    width: 95vw;
+    height: 25vh;
+}
+
+.vehicles-container {
+    display: flex;
+    width: 95vw;
+    height: 25vh;
+}
