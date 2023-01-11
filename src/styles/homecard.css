@@ -1,25 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
 
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  background: black;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-}
+
 .card-container {
-  width: 50%;
+  min-width: 20rem;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
-  height: 15vh;
+  height: 20rem;
   margin: 0.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(68, 67, 67);
   color: whitesmoke;
-  padding: 1em .5em 1em .5em;
+  padding: 1rem;
+  justify-content: space-between;
 }
 
 .card-name {
@@ -32,4 +25,19 @@ body {
     outline: none;
     border: .5em black;
     border-radius: 2px;
+    display:flex;
+    align-content: flex-end;
+}
+
+.favorites-button {
+  outline: none;
+  border: none;
+  background: black;
+  border-radius: 50%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
